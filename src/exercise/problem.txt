@@ -1,0 +1,31 @@
+🛠️ Practice Task: Design a Basic Printer System
+🔹 Scenario:
+You're asked to design a system for different types of printers in an office.
+Each printer can print documents, and some can scan and fax as well.
+Every printer has a Display unit and a Cartridge.
+
+✅ Your Objectives:
+Use "is-a" where appropriate — for example, if InkjetPrinter is a type of Printer,
+use inheritance.
+
+Use "has-a" for components like Cartridge and Display, which are parts of the printer.
+
+📦 Classes to Design:
+Start with these — feel free to add more.
+
+Main Entities:
+Printer (Base class)
+
+InkjetPrinter (Inherits from Printer)
+
+LaserPrinter (Inherits from Printer)
+
+Components:
+Cartridge (used in all printers)
+
+Display (shows messages)
+
+Scanner (optional, for printers with scanning ability)
+
+FaxMachine (optional, for printers with faxing ability)
+
